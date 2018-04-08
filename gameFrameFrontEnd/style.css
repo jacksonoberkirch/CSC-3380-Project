@@ -1,0 +1,107 @@
+@font-face {
+    font-family: bauhaus;
+    src: url(BauhausStd-Heavy.otf);
+ }
+
+#main {
+    width: 1500px;
+    height: 900px;
+    border: dotted red 2px;
+    padding: 0px;
+}
+
+#header {
+    width: 1500px;
+    height: 150px;
+    border: solid red 1px;
+}
+
+#title {
+    position: absolute;
+    width: 750px;
+    height: 150px;
+    border: solid black 1px;
+}
+
+
+#title h1{
+    font-family: bauhaus;
+    font-size: 100px;
+    height: 75px;
+    width: 500px;
+    text-align: center;
+    line-height: 75px;
+    position: absolute; bottom: -10px;
+}
+
+#title p {
+    font-family: bauhaus;
+    font-size: 25px;
+    position: absolute; top: 65px; left: 15px;
+}
+
+#login {
+    position: absolute; right: 10px;
+    width: 500px;
+    height: 150px;
+    border: solid black 1px;
+    display: inline-block;
+}
+
+#login p {
+    padding-left: 10px;
+    margin: 0px;
+}
+
+input {
+    position: relative; left: 10px;
+}
+ #login li {
+     list-style-type: none;
+     width: 25px;
+     height: 25px;
+     border: dotted red 1px;
+     display: inline-block;
+     margin-right: 10px;
+ }
+
+
+ #welcome {
+     width:1465px;
+     height: 200px;
+     border: solid black 1px;
+     margin: 20px 20px 20px 20px;
+     border-radius: 3px;
+ }
+
+ #welcome h2 {
+     margin-left: 15px;
+     margin-top: 3px;
+ }
+
+ #welcome p {
+     margin: 10px 10px 10px 10px;
+ }
+
+ #about {
+     width: 1150px;
+     height: 400px;
+     border: solid red 1px;
+     margin: 20px 20px 20px 20px;
+     border-radius: 3px;
+ }
+
+ #links {
+     width: 300px;
+     height: 400px;
+     border: solid black 1px;
+     border-radius: 3px;
+     position: absolute; right: 0px; top: 384px;
+     margin: 20px 20px 20px 20px;
+ }
+
+ #welcome h2 {
+
+ }
+
+ 
