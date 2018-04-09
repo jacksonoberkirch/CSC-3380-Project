@@ -12,55 +12,115 @@
         <div id="title">
             <h1>GameFrame</h1></br>
             <p>The Premier Internet Cafe Destination</p>
-        </div>
+        </div>        
+        <div id="loginstuff">
+            <!-- Button to open the modal login form -->
+                <button id="login" onclick="document.getElementById('id01').style.display='block'">Login</button>
 
-        <div id="login">
-            <span>
-                <p>Username:</p>
-                <input class="input" type="text" name="username">
-            </span>
-            <span>
-                <p>Password:</p>
-                <input class="input" type="text" name="password">
-            </span>
-            <ul id="social-buttons-login">
-                <li id="google"> </li>
-                <li id="facebook">  </li>
-                <li id="twitter"> </li>
+            <!-- The Modal -->
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" 
+                    class="close" title="Close Modal">&times;</span>
+    
+                    <!-- Modal Content -->
+                    <form class="modal-content animate">
+                        <div class="imgcontainer">
+                             <img src="avatarimg.png" alt="Avatar" class="avatar">
+                        </div>
+    
+                        <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+    
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+    
+                            <button type="submit">Login</button>
+    
+                            <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                        </div>
+    
+                        <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                            <span class="psw">Forgot <a href="#">password?</a></span>
+                        </div>
+                    </form>
 
-            </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </div>
 
-        <div id="welcome">
-            <h2>Welcome to GrameFrame!</h2>
-            <p>Lorem ipsum dolor sit amet, 
-                consectetuer adipiscing elit. 
-                Aenean commodo ligula eget dolor. 
-                Aenean massa. Cum sociis natoque penatibus 
-                et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu,
-                pretium quis, sem. Nulla consequat massa quis enim. 
-                Donec pede justo, fringilla vel, aliquet nec, vulputate 
-                eget, arcu. Lorem ipsum dolor sit amet, 
-                consectetuer adipiscing elit. 
-                Aenean commodo ligula eget dolor. 
-                Aenean massa. Cum sociis natoque penatibus 
-                et magnis dis parturient montes, nascetur ridiculus
-                mus. Donec quam felis, ultricies nec, pellentesque eu,
-                pretium quis, sem. Nulla consequat massa quis enim. 
-                Donec pede justo, fringilla vel, aliquet nec, vulputate 
-                eget, arcu. </p>
+    <div id="welcome">
+        <h2>Welcome to GameFrame!</h2>
+        <p>Lorem ipsum dolor sit amet, 
+            consectetuer adipiscing elit. 
+            Aenean commodo ligula eget dolor. 
+            Aenean massa. Cum sociis natoque penatibus 
+            et magnis dis parturient montes, nascetur ridiculus
+            mus. Donec quam felis, ultricies nec, pellentesque eu,
+            pretium quis, sem. Nulla consequat massa quis enim. 
+            Donec pede justo, fringilla vel, aliquet nec, vulputate 
+            eget, arcu. Lorem ipsum dolor sit amet, 
+            consectetuer adipiscing elit. 
+            Aenean commodo ligula eget dolor. 
+            Aenean massa. Cum sociis natoque penatibus 
+            et magnis dis parturient montes, nascetur ridiculus
+            mus. Donec quam felis, ultricies nec, pellentesque eu,
+            pretium quis, sem. Nulla consequat massa quis enim. 
+            Donec pede justo, fringilla vel, aliquet nec, vulputate 
+            eget, arcu. </p>
+    </div>
+
+    <div id="about"> 
+        <h2>About Us</h2> 
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+             Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+             natoque penatibus et magnis dis parturient montes, nascetur 
+             ridiculus mus. Donec quam felis, ultricies nec, pellentesque 
+             eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 
+             pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+             In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+             ullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+             Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate 
+             eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae
+             , eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis
+             , feugiat a,</p>
+    </div>
+        
+    <div id="links">
+        <h2>Links</h2> 
+        <ul id="socials">
+            <li id="facebook">facebook link</li>
+            <li id="twitter">twitter link</li>
+            <li id="reddit">reddit link</li>
+            <li id="google+">google+ link</li>
+        </ul>
+        <div id="logo">
+            <p style="text-align:center">GameFrame</br> Logo</p>
         </div>
-        <div id="about"> <h2>About Us</h2> </div>
-        <div id="links"> <h2>Links</h2> </div>
-        <div id="media">
-            <div id="img1"></div>
-            <div id="img2"></div>
-        </div>
+    </div>
 
-
-
+    <div id="media">
+        <div class="img" id="img1">game img1</div>
+        <div class="img" id="img2">game img 2</div>
+        <div id="banner"><p>description banner</p></div>
+        <div id="gamelist">Gamelist</div>
+    </div>
 
     </section>
 </body>
