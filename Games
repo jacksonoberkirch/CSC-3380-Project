@@ -11,6 +11,7 @@ VALUES (0,'Caius','desertprince@hotmail.com','mfboom3');
 CREATE TABLE games (
     GameID int,
     GameName varchar(255)
+    NumUsers int
 );
 
 INSERT INTO games (GameID, GameName)
