@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="usergui.css" type="text/css" rel="stylesheet">
+        <title>
+            New User GUI
+        </title>
+    </head>
+    <body>
+        <section id="usergui">
+            <button  onclick="toggle_visibility('gui-wrapper')" id="openguibtn">Sign Up?</button>
+
+            <div id="gui-wrapper" class="gui-wrapper">
+                <div id="gui-container" class="gui-container">
+                    <div id="header">
+                        <h3>Gameframe</h3>
+                        <p>Create a New Account</p>
+                    </div>
+                    
+                    <div id="userinfo">
+                        <form>
+                            <input type="text" name="uname" placeholder="Username"></br>
+                            <input type="text" name="email" placeholder="Email"></br>
+                            <input type="password" name="password" placeholder="Password"></br>
+                        </form>
+                    </div>
+
+                    <div id="othersocial">
+                        <button class="socialbtn" id="googlebtn">Sign up with Google</button>
+                        <button class="socialbtn" id="facebookbtn">Sign up with Facebook</button>
+
+                    </div>
+                    
+                    <div id="create">
+                        <button id="createbtn">Enter the Gameframe</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <script src="usergui.js"></script>
+    </body>
+</html>
