@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>GameFrame</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="sketch.js" type="text/javascript"></script>
+</head>
+<body>
+    <section id="main"> 
+    <div id= "header">
+        <div id="title">
+            <h1>GameFrame</h1></br>
+            <p>The Premier Internet Cafe Destination</p>
+        </div>        
+        <div id="loginstuff">
+            <!-- Button to open the modal login form -->
+                <button id="login" onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+            <!-- The Modal -->
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" 
+                    class="close" title="Close Modal">&times;</span>
+    
+                    <!-- Modal Content -->
+                    <form class="modal-content animate">
+                        <div class="imgcontainer">
+                             <img src="avatarimg.png" alt="Avatar" class="avatar">
+                        </div>
+    
+                        <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+    
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+    
+                            <button type="submit">Login</button>
+    
+                            <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                        </div>
+    
+                        <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                            <span class="psw">Forgot <a href="#">password?</a></span>
+                        </div>
+                    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <div id="welcome">
+        <h2>Welcome to GameFrame!</h2>
+        <p>GameFrame is cutting edge, software client for pc lounges. We 
+            aim to provide an intuitive user experience for all. You will 
+            be able to connect to your friends and favorite games as fast as 
+            possible. Join us as we aim to create a new age in LAN gameplay.</p>
+    </div>
+
+    <div id="about"> 
+        <h2>About Us</h2> 
+        <p>GameFrame came about through the collaboration of six individuals; 
+            Jackson Oberkirch, Howard Tsai, Feroz Mughal, Andrew Gremillion, 
+            Quentin Franck, and Matthew Landry. Prompted by our intelligent 
+            and extremely handsome instructor, the one and only Grant Williams, 
+            we began brainstorming ideas for our project. As we discussed, we 
+            discovered our mutual appreciation for games and the culture that 
+            goes along with them. It was this appreciation that became the seed 
+            that naturally grew into the software we dubbed GameFrame. Our goal 
+            for GameFrame was to create an easy to navigate program that could be used 
+            in a social gaming environment. We want friends to come together, and play 
+            their favorite games together! That’s our hope for GameFrame and we hope you’ll 
+            enjoy it as much as we do!</p>
+    </div>
+        
+    <div id="links">
+        <h2>Links</h2> 
+        <ul id="socials">
+            <li id="facebook"><a href="https://www.facebook.com/GameFramebr/?ref=br_rs">-Facebook</a></li>
+            <li id="twitter"><a href="https://twitter.com/GameFramebr">-Twitter</a></li>
+        </ul>
+        <div id="logo">
+            <p style="text-align:center">GameFrame</br> Logo</p>
+        </div>
+    </div>
+
+    <div id="media">
+        <div class="img" id="img1">game img1</div>
+        <div class="img" id="img2">game img 2</div>
+        <div id="banner"><p>description banner</p></div>
+        <div id="gamelist">Gamelist</div>
+    </div>
+
+    </section>
+</body>
+</html>
