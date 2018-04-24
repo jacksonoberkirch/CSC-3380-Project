@@ -1,14 +1,16 @@
-#openguibtn {
-    border: none;
-    padding: 10px 15px;
-    color: white;
-    background-color: grey;
-    border-radius: 3px;
-}
+@font-face {
+    font-family: bauhaus;
+    src: url(BauhausStd-Heavy.otf);
+ }
+
+ @font-face {
+     font-family: quantify;
+     src: url(quantify-bold.woff);
+ }
+
 
 .gui-wrapper {
     text-align: center;
-    display: none;
     margin: 50px auto;
     border: 1px solid black;
     width: 500px;
@@ -27,21 +29,26 @@
 }
 
 #header h3 {
+    font-family: bauhaus;
     font-size: 40px;
 }
 
 #header p {
+    font-family: quantify;
     font-size: 20px;
-    position: relative; left: 10px; bottom: 10px;
+    position: relative;bottom: 10px;
 }
 
 #userinfo {
-    position: relative; left: 10px;
+    font-family: quantify;
+    position: relative; left: 30px;
     border: 1px solid black;
     border-radius: 3px;
-    width: 220px;
+    width: 420px;
     height: 140px;
     padding: 10px;
+    text-align: left;
+    
 }
 
 input {
@@ -74,10 +81,20 @@ input {
 
 
 #createbtn {
+    font-family: quantify;
     position: absolute; bottom: 10px; left: 10px;
     border: none;
     border-radius: 3px;
     color: white;
     background-color: darkgreen;
     padding: 10px 15px;
+}
+
+
+#fname {
+    position: absolute; left: 230px; top: 14px;
+}
+
+#lname {
+    position: absolute; left: 230px; top: 68px;
 }
