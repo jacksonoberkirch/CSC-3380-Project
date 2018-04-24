@@ -49,15 +49,8 @@ body{
     position: absolute; top: 65px; left: 15px;
 }
 
-#login {
-    font-family: quantify;
-    position: absolute; right: 20px;
-    width: 150px;
-    height: 50px;
-}
-
 #welcome {
-    position: relative; top: 152px;
+    position: relative; top: 10px;
     width:75%;
     height: 100px;
     margin: 20px 20px 20px 20px;
@@ -81,7 +74,7 @@ body{
 }
 
 #about {    
-    position: relative; top: 150px;
+    position: relative; top: 10px;
     width: 75%;
     height: 225px;
     border: solid #bab2b5 2px;
@@ -112,8 +105,8 @@ body{
     height: 350px;
     border: solid #bab2b5 2px;
     border-radius: 3px;
-    position: absolute; right: 7px; top: 165px;
-    margin: 20px 20px 20px 10px;
+    position: absolute; right: 7px; top: 175px;
+    margin: 20px 10px 20px 10px;
     background-color: #edc7b7;
 }
 
@@ -136,20 +129,21 @@ body{
 }
 
 #links li {
-
     list-style-type: none;
     width: 150px;
     height: 30px;
-    border: solid #bab2b5 1px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     
+}
+
+a:link {
+    text-decoration: none;
 }
 
 #logo {
     width: 275px;
     height: 160px;
-    border: dotted red 1px;
-    position: relative; left: 10px; bottom: 220px;
+    position: absolute; left: 10px; bottom: 10px;
 }
 
 #media {
@@ -158,7 +152,7 @@ body{
     height: 515px;
     border: solid #bab2b5 2px;
     border-radius: 3px;
-    position: relative; top: 150px;
+    position: relative; top: 10px;
     background-color: #edc7b7;
 
 
@@ -171,7 +165,6 @@ body{
     padding: 0;
     width: 420px;
     height: 250px;
-    border: dotted red 1px;
 }
 
 #img1 {
@@ -189,7 +182,6 @@ body{
 #banner {
     width: 900px;
     height: 200px;
-    border: dotted red 1px;
     position: relative; bottom: 310px; left: 50px;
 }
 
@@ -204,149 +196,81 @@ body{
     width: 420px;
     height: 467px;
     color: #123c69;
-    border: dotted red 1px;
     position: relative; bottom: 781px; left: 1000px;
 }
 
-
-
-
-
-            /* CSS FOR LOGIN STUFF */
-
-
-/* Bordered form */
-form {
-    border: 3px solid #f1f1f1;
-    height: 600px;
-    width: 800px;
+#gamelist p {
+    margin: 0px;    
 }
 
-/* Full-width inputs */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+.game-img {
+    width: 96%;
+    height: 16%;
+    margin: 10px;
 }
 
-/* Set a style for all buttons */
-button {
-    background-color: #bab2b5;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
+#game1 {
+    margin-top: 0px;
 }
-
-/* Add a hover effect for buttons */
-button:hover {
-    opacity: 0.8;
-}
-
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-}
-
-/* Center the avatar image inside this container */
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-}
-
-/* Avatar image */
-img.avatar {
-    width: 20%;
-    border-radius: 50%;
-}
-
-/* Add padding to containers */
-.container {
-    padding: 16px;
-}
-
-/* The "Forgot password" text */
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-    span.psw {
-        display: block;
-        float: none;
-    }
-    .cancelbtn {
-        width: 100%;
-    }
-}
-
 
 #login {
-    width: 70px;
+    width: 300px;
+    height: 130px;
+    margin: 10px;
+    border-left: 2px solid #bab2b5;
+    font-family: quantify;
+    position: absolute; right: 20px;
 }
 
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    padding-top: 60px;
+#login p {
+    margin: 10px 0px 0px 10px;
+    padding: 0px;
+    float: left;
 }
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 5px auto; /* 15% from the top and centered */
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+#login input {
+    margin: 10px 0px 0px 10px;
 }
 
-/* The Close Button */
-.close {
-    /* Position it in the top right corner outside of the modal */
-    position: absolute;
-    right: 25px;
-    top: 0; 
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
+#pwd {
+    position: relative; left: 3px;
 }
 
-/* Close button on hover */
-.close:hover,
-.close:focus {
-    color: red;
+#loginbtn {
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    background-color: grey;
+    border-radius: 3px;
+    position: absolute; right: 10px; bottom: 10px;
+}
+
+#signup {
+    font-size: 15px;
+    position: absolute; bottom: 10px; left: 10px;
+}
+
+button:hover {
+    cursor:pointer;
+}
+
+#signup:hover {
     cursor: pointer;
 }
 
-/* Add Zoom Animation */
-.animate {
-    -webkit-animation: animatezoom 0.6s;
-    animation: animatezoom 0.6s
+#footer {
+    font-family: quantify;
+    position: absolute; right: 40px;
 }
 
-@-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)} 
-    to {-webkit-transform: scale(1)}
+#social-media {
+    position: absolute; top: 50px; left: 75px;
+    width: 60%;
+    height: 100px;
 }
 
-@keyframes animatezoom {
-    from {transform: scale(0)} 
-    to {transform: scale(1)}
+.social-img {
+    margin: 0px 15px 15px 10px;
+    width: 50px;
+    height: 50px;
 }

@@ -12,57 +12,16 @@
         <div id="title">
             <h1>GameFrame</h1></br>
             <p>The Premier Internet Cafe Destination</p>
-        </div>        
-        <div id="loginstuff">
-            <!-- Button to open the modal login form -->
-                <button id="login" onclick="document.getElementById('id01').style.display='block'">Login</button>
+        </div> 
+        <div id="login">
+            <form id="userid">
+                <p>Username</p><input type="text" name="uid">
+                <p>Password</p><input id="pwd" type="text" name="pwd">  
+            </form>
+            <button id="loginbtn" name="login">Login</button>
+            <a id="signup">New? Sign Up Here.</a>
 
-            <!-- The Modal -->
-                <div id="id01" class="modal">
-                    <span onclick="document.getElementById('id01').style.display='none'" 
-                    class="close" title="Close Modal">&times;</span>
-    
-                    <!-- Modal Content -->
-                    <form class="modal-content animate">
-                        <div class="imgcontainer">
-                             <img src="avatarimg.png" alt="Avatar" class="avatar">
-                        </div>
-    
-                        <div class="container">
-                            <label for="uname"><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required>
-    
-                            <label for="psw"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>
-    
-                            <button type="submit">Login</button>
-    
-                            <label>
-                            <input type="checkbox" checked="checked" name="remember"> Remember me
-                            </label>
-                        </div>
-    
-                        <div class="container" style="background-color:#f1f1f1">
-                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                            <span class="psw">Forgot <a href="#">password?</a></span>
-                        </div>
-                    </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
+        </div>       
     </div>
 
     <div id="welcome">
@@ -91,10 +50,13 @@
         
     <div id="links">
         <h2>Links</h2> 
-        <ul id="socials">
-            <li id="facebook"><a href="https://www.facebook.com/GameFramebr/?ref=br_rs">-Facebook</a></li>
-            <li id="twitter"><a href="https://twitter.com/GameFramebr">-Twitter</a></li>
-        </ul>
+        <div id="social-media">
+            <img class="social-img" src="socialmedia/Facebook.png">
+            <img class="social-img" src="socialmedia/Twitter.png">
+            <img class="social-img" src="socialmedia/Reddit.png">
+            <img class="social-img" src="socialmedia/Linkedin.png">
+
+        </div>
         <div id="logo">
             <img src="gfLogo.jpg" style="width: 278; height: 162;">
         </div>
@@ -114,7 +76,34 @@
         <img src="pcCafe3.png" style="width: 900; height: 250;">
         </div>
         
-        <div id="gamelist">Gamelist</div>
+        <div id="gamelist">
+           <p>Gamelist</p>
+           
+            <div class="game-img" id="game1">
+            <img src="csgoBanner.jpg" style="width: 405; height: 76;">
+            </div>
+            
+            <div class="game-img" id="game2">
+            <img src="leagueBanner.jpg" style="width: 405; height: 76;">
+            </div>
+            
+            <div class="game-img" id="game3">
+            <img src="dotaBanner.jpg" style="width: 405; height: 76;">
+            </div>
+            
+            <div class="game-img" id="game4">
+            <img src="fortniteBanner.jpg" style="width: 405; height: 76;">
+            </div>
+            
+            <div class="game-img" id="game5">
+            <img src="minesweepBanner.png" style="width: 405; height: 76;">
+            </div>
+        
+        </div>
+    </div>
+    <div id="footer">
+        <p>&copy; Gameframe 2018. All Rights Reserved.</p>
+
     </div>
 
     </section>
