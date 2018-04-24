@@ -1,0 +1,155 @@
+@font-face {
+    font-family: bauhaus;
+    src: url(BauhausStd-Heavy.otf);
+ }
+
+ @font-face {
+     font-family: quantify;
+     src: url(quantify-bold.woff);
+ }
+
+ body{
+    background-color: #eee2dc;
+ }
+
+#time-gui {
+    border: 4px #bab2b5 solid;
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    color: #123c69;
+}
+
+#cc-info {
+    position: relative; top: 5px;
+    margin: 10px;
+    width: 96%;
+    height: 150px;
+    border: 1px #eee2dc dotted;
+    color: #ac3b61;
+}
+
+h3 {
+    font-family: bauhaus;
+    font-size: 35px;
+    padding: 0px;
+    margin: 10px;
+}
+
+h4 {
+    font-family: quantify;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    color: #123c69;
+}
+
+#b-info h4 {
+    margin: 10px;
+}
+
+p {
+    font-family: quantify;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#cc-info-content {
+    margin: 10px;
+}
+
+#expdate {
+    position: absolute; left: 215px; top: 45px;
+}
+
+#month {
+    position: relative; left: 38px;
+    width: 25px;
+}
+
+#year {
+    position: relative; left: 40px;
+    width: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#ccv {
+    position: relative; top: 10px;
+}
+
+#ccv-number {
+    position: relative; top: 10px;
+    width: 40px;
+}
+
+#b-info {
+    position: relative;
+    margin: 10px;
+    height: 310px;
+    width: 96%;
+    border: 1px dotted #eee2dc;
+    color: #ac3b61;
+}
+
+#left{
+    position: relative;
+    width: 50%;
+    height: 250px;
+    margin: 10px;
+    border: 1px dotted #eee2dc;
+}
+
+.nameinput {
+    width: 120px;
+    height: 20px;
+}
+
+#lname {
+    position: absolute; left: 150px; top: 0px;
+}
+
+#lnameinput {
+    position: absolute; left: 150px; top: 17px;
+}
+
+
+#address {
+    margin-top: 25px;
+}
+#address input, #address2 input{
+    margin-bottom: 25px;
+    width: 250px;
+    height: 20px;
+    
+}
+
+#right {
+    position: absolute; top: 37px; left: 300px;
+    border: 1px dotted #eee2dc;
+    width: 255px;
+    height: 250px;
+    margin: 10px;
+}
+
+#time-gui-footer {
+    position: relative;
+}
+
+#addcardbtn {
+    border: none;
+    padding: 10px 20px;
+    background-color: #bab2b5;
+    color: white;
+    border-radius: 3px;
+    position: absolute; right: 20px;
+}
+
+
+
