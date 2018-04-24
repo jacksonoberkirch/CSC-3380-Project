@@ -1,0 +1,149 @@
+@font-face {
+    font-family: bauhaus;
+    src: url(BauhausStd-Heavy.otf);
+ }
+
+ @font-face {
+     font-family: quantify;
+     src: url(quantify-bold.woff);
+ }
+
+body {
+    background-color: #eee2dc;
+}
+
+#page-wrapper {
+    width: 1500px;
+    height: 1200px;
+    padding: 0px;
+}
+
+#header {
+    width: 1488;
+    margin: 10px 10px;
+    height: 150px;
+    border: 1px solid black;
+    color: #123c69;
+    background-color: #edc7b7;
+}
+
+#title h1 {
+    margin: 0px;    
+    font-family: bauhaus;
+    font-size: 75px;
+}
+
+#title p {
+    font-family: quantify;
+    font-size: 30px;
+    margin: 0px;
+    position: relative; left: 20px; top: 20px;
+}
+
+#time {
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    border-left: 1px solid black;
+    position: absolute; left: 1297px; top: 11px;
+
+}
+
+#time h3{
+    font-family: bauhaus;
+    margin: 5px;
+}
+
+#time h1{
+    font-family: bauhaus;
+    margin: 20px;
+    font-size: 25px;
+}
+
+#time a {
+    font-family: quantify;
+    display: block;
+    float: center;
+    background-color: #bab2b5;
+    text-decoration: none;
+    color: white;
+    width: 130px;
+    height: 23px;
+    margin-left: 36px;
+    cursor: pointer;
+}
+#main {
+    margin: 10px;
+    width: 1478px;
+    height: 1015px;
+    border: 1px solid black;
+}
+
+.game {
+    position: relative;
+    margin: 10px;
+    width: 98.5%;
+    height: 175px;
+    border: 1px solid #bab2b5;
+    color: #123c69;
+    background-color: #edc7b7;
+}
+#logout {
+    position: absolute; right: 21px;
+    margin: 10px;
+    width: 100px;
+    height: 35px;
+}
+
+#logout button {
+    font-family: quantify;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #bab2b5;
+    border: none;
+    cursor: pointer;
+}
+
+.description {
+    position: absolute; top: 10px; left: 300px;
+    width: 450px;
+    height: 150px;
+    border: 1px red dotted;
+    color: #ac3b61;
+    background-color: #bab2b5;
+
+}
+
+.game h3 {
+    font-family: bauhaus;
+    font-size: 35px;
+    position: absolute; left: 10px; top: 10px;
+    margin: 0px;
+}
+.game button {
+    font-family: bauhaus;
+    position: absolute; bottom: 10px; left: 10px;
+    width: 100px;
+    height: 35px;
+}
+ .img1 {
+     position: absolute; right: 320px; top: 10px;   
+     width: 300px;
+     height: 150px;
+     border: 1px red dotted;
+ }
+
+ .img2 {
+    position: absolute; right: 10px; top: 10px;   
+    width: 300px;
+    height: 150px;
+    border: 1px red dotted;
+}
+
+.game p {
+    font-family: quantify;
+    font-size: 25px;
+    margin: 0px;
+}
