@@ -7,6 +7,11 @@
      font-family: quantify;
      src: url(quantify-bold.woff);
  }
+ 
+ @font-face {
+     font-family: brandon;
+     src: url(Brandon_blk.otf);
+ }
 
 body {
     background-color: #eee2dc;
@@ -123,7 +128,7 @@ body {
 }
 
 .game p {
-    font-family: quantify;
-    font-size: 25px;
+    font-family: brandon;
+    font-size: 22px;
     margin: 0px;
 }
