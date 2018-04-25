@@ -1,0 +1,257 @@
+@font-face {
+    font-family: bauhaus;
+    src: url(BauhausStd-Heavy.otf);
+ }
+
+ @font-face {
+     font-family: quantify;
+     src: url(quantify-bold.woff);
+ }
+
+#main {
+    width: 1500px;
+    height: 1200px;
+    padding: 0px;
+}
+
+body{
+    background-color: #eee2dc;
+}
+
+#header {
+    width: 1496px;
+    height: 150px;
+    border: solid #bab2b5 4px;
+    background-color: #edc7b7;  
+}
+
+#title {
+    position: absolute;
+    width: 750px;
+    height: 150px;
+    color: #123c69;
+}
+
+
+#title h1{
+    font-family: bauhaus;
+    font-size: 100px;
+    height: 75px;
+    width: 500px;
+    text-align: center;
+    line-height: 75px;
+    position: absolute; bottom: -29px;
+}
+
+#title p {
+    font-family: bauhaus;
+    font-size: 25px;
+    position: absolute; top: 65px; left: 15px;
+}
+
+#login {
+    float: right;
+}
+
+#login form {
+    float: left;
+    padding-top: 15px;
+}
+
+#login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #fff;
+    font-family: quantify;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+#login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #bab2b5;
+    font-family: quantify;
+    font-size: 14px;
+    color: #111;
+    cursor: pointer;
+}
+
+#login form button:hover {
+    background-color: #ccc;
+}
+
+#login a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: none;
+    float: right;
+    background-color: #edc7b7;
+    font-family: quantify;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+    cursor: pointer;
+}
+
+
+#welcome {
+    position: relative; top: 152px;
+    width:75%;
+    height: 100px;
+    margin: 20px 20px 20px 20px;
+    border: solid #bab2b5 2px;
+    color: #ac3b61;
+    border-radius: 3px;
+    background-color: #edc7b7;
+}
+
+#welcome h2 {
+    font-family: quantify;
+    margin-left: 15px;
+    margin-top: 3px;
+    color: #123c69;
+}
+
+#welcome p {
+    font-family: quantify;
+    margin: 10px 10px 10px 10px;
+    position: relative; left: 10px; bottom: 20px;
+}
+
+#about {    
+    position: relative; top: 150px;
+    width: 75%;
+    height: 225px;
+    border: solid #bab2b5 2px;
+    margin: 20px 10px 20px 20px;
+    border-radius: 3px;
+    color: #ac3b61;
+    background-color: #edc7b7;
+}
+
+#about h2 {
+    font-family: quantify;
+    font-size: 40px;
+    margin-left: 20px;
+    width: 400px;
+    height: 50px;
+    position: relative; bottom: 33px;
+    color: #123c69;   
+}
+
+#about p {
+    font-family: quantify;
+    margin: 10px 10px 10px 10px;
+    position: relative; bottom: 60px; left: 10px;
+}
+
+#links {
+    width: 20%;
+    height: 350px;
+    border: solid #bab2b5 2px;
+    border-radius: 3px;
+    position: absolute; right: 7px; top: 165px;
+    margin: 20px 20px 20px 10px;
+    background-color: #edc7b7;
+}
+
+#links h2 {
+    color: #123c69;
+    font-family: quantify;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    position: relative; left: 45px; bottom: 25px;
+}
+
+#links ul {
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 300px;
+    position: relative; left: 10px; bottom: 50px;
+}
+
+#links li {
+
+    list-style-type: none;
+    width: 150px;
+    height: 30px;
+    border: solid #bab2b5 1px;
+    margin-bottom: 35px;
+    
+}
+
+#logo {
+    width: 275px;
+    height: 160px;
+    border: dotted red 1px;
+    position: relative; left: 10px; bottom: 220px;
+}
+
+#media {
+    margin: 20px 20px 20px 20px;
+    width: 1458px;
+    height: 515px;
+    border: solid #bab2b5 2px;
+    border-radius: 3px;
+    position: relative; top: 150px;
+    background-color: #edc7b7;
+
+
+}
+
+.img {
+    text-align: center;
+    line-height: 250px;
+    margin: 0;
+    padding: 0;
+    width: 420px;
+    height: 250px;
+    border: dotted red 1px;
+}
+
+#img1 {
+    
+    margin: 30px 25px 20px 50px
+
+}
+
+#img2 {
+    
+    position: relative;bottom: 302px; left: 505px;
+    margin: 50px 25px 25px 25px;
+}
+
+#banner {
+    width: 900px;
+    height: 200px;
+    border: dotted red 1px;
+    position: relative; bottom: 310px; left: 50px;
+}
+
+#banner p {
+    text-align: left;
+}
+
+#gamelist {
+    text-align: center;
+    font-family: quantify;
+    font-size: 30px;
+    width: 420px;
+    height: 467px;
+    color: #123c69;
+    border: dotted red 1px;
+    position: relative; bottom: 781px; left: 1000px;
+}
